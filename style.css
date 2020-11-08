@@ -94,23 +94,60 @@ ul .infocard{
     color: rgb(0, 85, 243);
 }
 .ui-content {
-   background-color: rgb(230, 233, 240);
+   background-color: rgb(198, 238, 229);
 }
+.ui-content h1 {
+    color: rgb(5, 75, 116);
+ }
+ .ui-content p {
+    color: rgb(2, 38, 85);
+ }
 h3{
     color: rgb(13, 73, 88);
+}
+.ui-content1 {
+    background-color: rgb(206, 242, 248);
+ }
+.ui-content1 h2{
+
+    font-size: 24px;
+    color: rgb(3, 51, 83);
 }
 
 /*********
 關於我們
 *********/
+.about  h3{
+    font-size: 20px;
+    color:  rgb(116, 24, 21);
+}
+.about img{
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin:0.5com;
+    border-bottom: 2px;
+}
+
+.about b{
+    font-size:20px;
+    color:rgb(36, 3, 144);
+}
+.about p{
+    font-size: 18px;
+    display: block;
+    margin: 0.5em;
+    color: rgba(0, 34, 92, 0.87);
+}
 
 /*************
 hotpot 
 *************/
 
+
 .hotpot  h3{
     font-size: 25px;
-    color:  rgb(177, 58, 2);
+    color:  rgb(116, 24, 21);
 }
 .hotpot img{
     max-width: 100%;
@@ -130,6 +167,7 @@ hotpot
     margin: 0.5em;
     color: rgba(0, 34, 92, 0.87);
 }
+
 /*************
 breakfast 
 *************/
@@ -156,13 +194,26 @@ breakfast
     margin: 0.5em;
     color: rgba(2, 20, 51, 0.87);
 }
+.video-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
 /*************
 mainmeal
 *************/
 
 .mainmeal h3{
     font-size: 25px;
-    color:  rgb(0, 77, 45);
+    color:  rgb(1, 66, 39);
 }
 .mainmeal img{
     max-width: 100%;
@@ -174,7 +225,7 @@ mainmeal
 
 .mainmeal b{
     font-size:20px;
-    color:rgb(3, 144, 90);
+    color:rgb(51, 82, 1);
 }
 .mainmeal p{
     font-size: 18px;
@@ -188,7 +239,7 @@ cafe
 
 .cafe h3{
     font-size: 25px;
-    color:  rgb(97, 3, 50);
+    color:  rgb(97, 9, 3);
 }
 .cafe img{
     max-width: 100%;
@@ -200,7 +251,7 @@ cafe
 
 .cafe b{
     font-size:20px;
-    color:rgb(144, 3, 109);
+    color:rgb(144, 48, 3);
 }
 .cafe p{
     font-size: 18px;
