@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="themes/1020.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="shortcut icon" href="images/food-icon.png" >
+    <link rel="bookmark" href="images/favicon.ico" > 
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/food-icon.png" >
+    <link rel="bookmark" href="images/food-icon.png" > 
+
+    <title>美食日記</title>
+
+</head>
+<body>
+
+    <!--主頁面-->
+    <div data-role="page" id="home">
+
+        <div data-role="header">
+
+            <h1>美食日記</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>網站導覽</h2>
+            <img src="images/021.jpg" >
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#about">
+                    <img src="images/050.jpg">
+                <h2>關於我們</h2>
+                <p>about</p></a>
+                </li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page01">
+                    <img src="images/010.jpg">
+                <h2>火鍋</h2>
+                <p>hot pot</p></a>
+                </li>
+            </ul>
+    
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page02">
+                    <img src="images/025.jpg">
+                <h2>早餐</h2>
+                <p>breakfast</p></a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page03">
+                    <img src="images/030.jpg">
+                <h2>主餐</h2>
+                <p> Main meal</p></a>
+                </li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page04">
+                    <img src="images/040.jpg">
+                <h2>咖啡廳</h2>
+                <p>cafe</p></a>
+                </li>
+            </ul>
+           
+        </div><!-- /content -->
+
+       
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#about" data-icon="bullets">關於我們</a></li>
+                    <li><a href="#page01" data-icon="bullets">火鍋</a></li>
+                    <li><a href="#page02" data-icon="bullets">早餐</a></li>
+                    <li><a href="#page03" data-icon="bullets" data-transition="slidedown">主餐</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">咖啡廳</a></li>
+                </ul>
+            </div>
+
+            <h4> &copy; 網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+<!--關於我們-->
+    <div data-role="page" id="about" data-dialog="true">
+
+        <div data-role="header">
+
+            <h1>美食日記</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="about">
+            <h1>關於我們</h1>
+            <p>這是一個紀錄自己吃過的美食的日記，總共分成四個項目分別是：火鍋、早餐、主餐跟咖啡廳。</p>
+            <p>裡面有這些店的地址跟營業時間等資訊，讓人可以快速地找到這些店家。</p>
+            <p>除此之外，也我自己拍的美食照片可以提供參考。</p>
+            <p>不管你是在天氣冷的時候想找間溫暖的火鍋，還是想從一個吃完就會有精神的早餐開始一開始。</p> 
+            <p>中午或晚上吃一個好吃的主餐當作忙碌了一天的獎勵，中間到咖啡廳休息一下，喝杯咖啡提起精神，這裡都可以找到符合你的需求的店。</p>
+            <img src="images/050.jpg" >
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed" >
+         
+            <h4> &copy;網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <!--火鍋-->
+    <div data-role="page" id="page01">
+
+        <div data-role="header">
+
+            <h1>美食介紹</h1>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h1>火鍋</h1>
+            <p>天氣變冷了</p>
+            <p>來吃一鍋溫暖的火鍋吧！</p>
+    <P></P>
+    <li>
+    <div class="hotpot">
+        <h3>弄堂麻辣小火鍋</h3>
+        <img src="images/013.jpg" >
+        <p><b>地址：</b>高雄市苓雅區林泉街15號</p>
+        <p></p>
+        <p><b>營業時間：</b>11:00-14:00、17:00-21:00</p>
+
+        <p></p>
+    </div> 
+</li>
+<li>
+    <div class="hotpot">
+        <h3>億品鍋(二聖店)</h3>
+        <img src="images/010.jpg" >
+        <p><b>地址：</b>高雄市前鎮區二聖二路316號</p>
+        <p><b>營業時間：</b>11:00~23:00</p>
+    </div> 
+</li>
+<li>
+    <div class="hotpot">
+        <h3>茉荳獨享鍋</h3>
+        <img src="images/012.jpg" >
+        <p><b>地址：</b>高雄市三民區博愛一路10號</p>
+        <p><b>營業時間：</b>11:00-2:00、5:00-9:00</p>
+    </div> 
+</li>
+<li>
+    <div class="hotpot">
+        <h3>石二鍋 (高雄三多三店)</h3>
+        <img src="images/011.jpg" >
+        <p><b>地址：</b>高雄市前鎮區三多三路137號</p>
+        <p><b>營業時間：</b>平日11：30-22：00、國定例假日 11：30-22：30</p>
+    </div> 
+</li>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a> 
+        </div><!-- /content -->
+
+        
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#about" data-icon="bullets">關於我們</a></li>
+                    <li><a href="#page02" data-icon="bullets">早餐</a></li>
+                    <li><a href="#page03" data-icon="bullets" data-transition="slidedown">主餐</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">咖啡廳</a></li>
+                </ul>
+            </div>
+            <h4> &copy; 網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <!--早餐-->
+    <div data-role="page" id="page02">
+
+        <div data-role="header">
+
+            <h1>美食介紹</h1>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h1>早餐</h1>
+            <p>好吃的早餐是一天美好的開始</p>
+            <li>
+                <div class="breakfast">
+                    <h3>小陽台早午餐</h3>
+                    <img src="images/023.jpg" >
+                    <p><b>地址：</b>高雄市苓雅區五福一路157號</p>
+                    <p><b>營業時間：</b>07:30~16:00 (週二公休)</P>
+                </div> 
+            </li>
+            <li>
+                <div class="breakfast">
+                    <h3>一日之初</h3>
+                    <img src="images/021.jpg" >
+                    <p><b>地址：</b>高雄市前鎮區二聖二路279號</p>
+                    <p><b>營業時間：</b>08:00~16:00 (週三公休)</p>
+                </div> 
+            </li>
+            <li>
+                <div class="breakfast">
+                    <h3>歐兔咖啡藍昌店</h3>
+                    <img src="images/022.jpg" >
+                    <p><b>地址：</b>高雄市楠梓區藍昌路415號</p>
+                    <p><b>營業時間：</b>週二~週五 9:00~20:00、</p>
+                    <p>週六~週日 8:00~20:00 (週一公休)</p>
+                </div> 
+            </li>
+            <li>
+                <div class="breakfast">
+                    <h3>快慢拍小姐</h3>
+                    <img src="images/025.jpg" >
+                    <p><b>地址：</b>高雄市苓雅區興中一路40號</p>
+                    <p><b>營業時間：</b>07：00-13：00 (週二公休)</p>
+                </div> 
+            </li>
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/0AS7KwDVGsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /content -->
+
+        
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#about" data-icon="bullets">關於我們</a></li>
+                    <li><a href="#page01" data-icon="bullets">火鍋</a></li>
+                    <li><a href="#page03" data-icon="bullets" data-transition="slidedown">主餐</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">咖啡廳</a></li>
+                </ul>
+            </div>
+
+            <h4> &copy; 網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+     <!--主餐-->
+     <div data-role="page" id="page03">
+
+        <div data-role="header">
+
+            <h1>美食介紹</h1>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h1>主餐</h1>
+            <p>不管再忙也要好好的吃一餐</p>
+            <p>才有體力把事情完成</p>
+            <li>
+                <div class="mainmeal">
+                    <h3>丸叁食伍</h3>
+                    <img src="images/034.jpg" >
+                    <p><b>地址：</b>高雄市新興區中東街277號</p>
+                    <p><b>營業時間：</b >12:00-20:30</p>
+                </div> 
+            </li>
+            <li>
+                <div class="mainmeal">
+                    <h3>韓石食堂</h3>
+                    <img src="images/031.jpg" >
+                    <p><b> 地址：</b>高雄市前鎮區林森三路199號</p>
+                    <p><b> 營業時間：</b>11：30~21：00</p>
+                </div> 
+            </li>
+            <li>
+                <div class="mainmeal">
+                    <h3>派諾尼義大利麵</h3>
+                     <img src="images/030.jpg" >
+                     <p><b>地址：</b>高雄市三民區中山一路325巷28號</p>
+                     <p><b>營業時間：</b>週一~週五 12:00~21:30、</p>
+                     <p>週六、週日 11:00~21:30</p>
+                </div> 
+            </li>
+            <li>
+                <div class="mainmeal">
+                    <h3>慕食 Mousse</h3>
+                     <img src="images/035.jpg" >
+                     <p><b>地址：</b>高雄市前鎮區鄭和路51號</p>
+                     <p><b>營業時間：</b>週三至週日 11:00-21:00 (週一二公休)</p>
+                </div> 
+            </li>
+            
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /content -->
+
+      
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#about" data-icon="bullets">關於我們</a></li>
+                    <li><a href="#page01" data-icon="bullets">火鍋</a></li>
+                    <li><a href="#page02" data-icon="bullets">早餐</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">咖啡廳</a></li>
+                </ul>
+            </div>
+
+            <h4> &copy; 網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+     <!--咖啡廳-->
+     <div data-role="page" id="page04">
+
+        <div data-role="header">
+
+            <h1>美食介紹</h1>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h1>咖啡廳</h1>
+            <p>在忙碌的生活中</p>
+            <p>喝一杯咖啡讓自己休息一下</p>
+            <li>
+                <div class="cafe">
+                    <h3>多一點咖啡館 (高雄文化館)</h3>
+                        <img src="images/042.jpg" >
+                        <p><b>地址：</b>高雄市苓雅區同慶路138號</p>
+                        <p><b>營業時間：</b>9:00~17:00</p>
+                </div> 
+            </li>
+            <li>
+                <div class="cafe">
+                    <h3>Lover勒芙輕食</h3>
+                       <img src="images/024.jpg" >
+                       <p><b>地址：</b>高雄市苓雅區林泉街169號</p>
+                       <p><b>營業時間：</b>06:30 ~ 17:30</p>
+                </div> 
+            </li>
+            <li>
+                <div class="cafe">
+                    <h3>康荻新食</h3>
+                    <img src="images/040.jpg" >
+                    <p><b>地址：</b>高雄市前鎮區二聖二路231-1號</p>
+                    <p><b>營業時間：</b>11:00-23:00 (周二公休)</p>
+                </div> 
+            </li>
+            <li>
+                <div class="cafe">
+                    <h3> 媚力泊咖啡</h3>
+                    <img src="images/041.jpg" >
+                    <p><b>地址：</b>高雄市新興區林森一路195號</p>
+                    <p><b>營業時間：</b>07:30 - 22:00</p>
+                </div> 
+            </li>
+
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+        </div><!-- /content -->
+
+       
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#about" data-icon="bullets">關於我們</a></li>
+                    <li><a href="#page01" data-icon="bullets">火鍋</a></li>
+                    <li><a href="#page02" data-icon="bullets">早餐</a></li>
+                    <li><a href="#page03" data-icon="bullets" data-transition="slidedown">主餐</a></li>
+                </ul>
+            </div>
+
+            <h4> &copy; 網站更新日期：2020年11月8日</h4>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    
+    
+</body>
+</html>
